@@ -1,3 +1,7 @@
-S=input('enter character:')
-while not(s=='q' or s=='Q'):
- S=input('enter character:')
+while True:
+    a=input("enter the letter")
+    if a not in['q','Q']:
+     print("Hi")
+    else:
+        print("welcome")
+        break
